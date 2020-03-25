@@ -2,6 +2,8 @@
 This file handles requesting a random, breaking US headline from a list of updated new headlines from newsapi.org via a JSON parsing library. 
 To use this file, you'll need an account with newsapi.org and an API key to use in the program.
 The JSON library used in this program will be uploaded as a .jar file.
+
+Also keep in mind that the process in which the program establishes the URL connection is not exactly the most efficient route to take.
 */
 
 package NewsBot;
